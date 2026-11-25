@@ -3,7 +3,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const entry =
-  "GhostTable lets you book a table at restaurants that closed in 2019, complete with a confirmation email, a reminder text, and a very confident maître d' who no longer exists.";
+  "PerMyLastEmail CCs your boss on every email you never sent, then follows up hourly to ask why you have not replied to the draft still sitting in your outbox.";
 
 // Gate validation: the sealed scorer requires 1-240 chars of non-whitespace
 // UTF-8 text, and the brief requires exactly one sentence. Fail loudly
